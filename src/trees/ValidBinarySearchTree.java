@@ -12,7 +12,7 @@ public class ValidBinarySearchTree {
         System.out.println(validBST);
     }
 
-    private int isValidBST(TreeNode a) {
+    public int isValidBST(TreeNode a) {
         return     BTSUtil(a,Integer.MIN_VALUE,Integer.MAX_VALUE)? 1:0;
     }
 
