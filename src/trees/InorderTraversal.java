@@ -8,7 +8,8 @@ import java.util.Stack;
  */
 public class InorderTraversal {
     public static void main(String[] args) {
-        int[] a ={15,10,20,8,12,6,11,17,25,16,27};
+        //int[] a ={15,10,20,8,12,6,11,17,25,16,27};
+        int[] a ={20,10,30,5,15,25,35,4,6,14,16,24,26,34,36};
         TreeNode treeNode = TreeNode.getTreeNode(a);
         InorderTraversal inorderTraversal = new InorderTraversal();
         ArrayList<Integer> arrayList = inorderTraversal.inorderTraversal(treeNode);
