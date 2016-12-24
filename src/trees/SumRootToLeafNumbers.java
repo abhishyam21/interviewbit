@@ -1,22 +1,25 @@
 package trees;
 
+import java.util.ArrayList;
 import java.util.Stack;
 
 /**
  * Created by Rachana Rao on 12/24/2016.
  */
-public class PathSum {
+public class SumRootToLeafNumbers {
+    private static int MOD = 1003;
     public static void main(String[] args) {
-       int[] temp = {20, 10, 30, 5, 15, 25, 35, 4, 6, 14, 16, 24, 26, 34, 36};
+       int[] temp = {2,1,3};
      //   int[] temp = {1000,200};
         TreeNode a = TreeNode.getTreeNode(temp);
-        PathSum pathSum = new PathSum();
-        int b = 100;
-        int i = pathSum.pathSum(a, b);
+        SumRootToLeafNumbers pathSum = new SumRootToLeafNumbers();
+        int b = 101;
+        int i = pathSum.pathSum(a);
         System.out.println(i);
     }
 
-    private int pathSum(TreeNode a, int b) {
+    private int pathSum(TreeNode a) {
+        int result =0;
         Stack<TreeNode> stack = new Stack<>();
         TreeNode current = null;
         TreeNode prev;
@@ -32,8 +35,7 @@ public class PathSum {
                 prev = current;
                 current = stack.peek();
                 if (current.left == null && current.right == null) {
-                    if (checkSum(stack) == b)
-                        return 1;
+                    result+=checkSum(stack);
                     stack.pop();
                 } else {
                     if (prev == current.right) {
@@ -46,15 +48,18 @@ public class PathSum {
                 }
             }
         }
-        return 0;
+        return result%MOD;
     }
 
     private int checkSum(Stack<TreeNode> stack) {
         Object[] temp = stack.toArray();
         int sum = 0;
         for (Object o : temp) {
-            sum+=((TreeNode) o).val;
+            TreeNode treeNode = (TreeNode) o;
+            sum=sum*10+treeNode.val;
+            sum%=MOD;
         }
-        return sum;
+        sum = sum%MOD;
+        return  sum;
     }
 }
