@@ -18,7 +18,7 @@ public class ZigZagLevelOrderTraversalBt {
         }
     }
 
-    private ArrayList<ArrayList<Integer>> zigZagLevelOrderTraversalBt(TreeNode a) {
+    public ArrayList<ArrayList<Integer>> zigZagLevelOrderTraversalBt(TreeNode a) {
 
         boolean counter = false;
         ArrayList<ArrayList<Integer>> result = new ArrayList<>();
