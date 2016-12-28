@@ -1,7 +1,5 @@
 package trees;
 
-import java.util.ArrayList;
-
 /**
  * Created by Rachana Rao on 12/27/2016.
  */
@@ -11,21 +9,22 @@ public class FlattenBinaryTreeToLinkedList {
         TreeNode a = TreeNode.getTreeNode(temp);
 
         FlattenBinaryTreeToLinkedList flattenBinaryTreeToLinkedList = new FlattenBinaryTreeToLinkedList();
-        TreeNode treeNode = flattenBinaryTreeToLinkedList.flattenBinaryTreeToLinkedList(a);
-        ZigZagLevelOrderTraversalBt zigZagLevelOrderTraversalBt = new ZigZagLevelOrderTraversalBt();
-        ArrayList<ArrayList<Integer>> arrayLists = zigZagLevelOrderTraversalBt.zigZagLevelOrderTraversalBt(treeNode);
-        arrayLists.forEach(list -> System.out.println(list.toString()));
+        TreeNode treeNode = flattenBinaryTreeToLinkedList.flatten(a);
+        TreeNode.printLevelOrderTraversalOfTree(treeNode);
+
     }
 
-    private TreeNode flattenBinaryTreeToLinkedList(TreeNode a) {
+    private TreeNode flatten(TreeNode a) {
         if (a == null) return null;
-        flattenBinaryTreeToLinkedList(a.left);
-        TreeNode left = a.left;
-        TreeNode right = a.right;
-        a.left = null;
-        append(left, right);
-        a.right = left;
-        flattenBinaryTreeToLinkedList(a.right);
+        //flatten(a.left);
+        if(a.left != null) {
+            TreeNode left = a.left;
+            TreeNode right = a.right;
+            a.left = null;
+            append(left, right);
+            a.right = left;
+        }
+        flatten(a.right);
         return a;
     }
 
