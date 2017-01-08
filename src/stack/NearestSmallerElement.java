@@ -2,6 +2,7 @@ package stack;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Stack;
 
 public class NearestSmallerElement {
@@ -14,33 +15,34 @@ public class NearestSmallerElement {
         System.out.println(list.toString());
     }
 
-    private ArrayList<Integer> prevSmaller(ArrayList<Integer> a) {
-        ArrayList<Integer> minVal = new ArrayList<>();
+    private ArrayList<Integer> prevSmaller(ArrayList<Integer> a){
         Stack<Integer> stack = new Stack<>();
-        minVal.add(0,-1);
-        for (int i = 1; i < a.size(); i++) {
-            int prev = i-1;
-            //if prev value less than current add that value
-            if(a.get(prev) < a.get(i)){
-                minVal.add(i,a.get(prev));
-                if(a.get(prev) < stack.peek())
-                stack.push(a.get(prev));
-            }else {
-                    if(a.get(i) > minVal.get(prev))
-                        minVal.add(minVal.get(prev));
-                else if(a.get(i) > stack.peek())
-                    minVal.add(stack.peek());
-                else minVal.add(-1);
-            }
+        ArrayList<Integer> result = new ArrayList<>();
+        for (int i = 0; i < a.size(); i++) {
+            while (!stack.isEmpty() && stack.peek() >= a.get(i)) stack.pop();
+            if(stack.isEmpty())
+                result.add(-1);
+            else result.add(stack.peek());
+            stack.push(a.get(i));
         }
-        return minVal;
-    }
-
-    private int getPrevValMin(ArrayList<Integer> minVal, Integer val) {
-        for (int i = minVal.size()-1; i >=0 ; i--) {
-            if(minVal.get(i) < val && minVal.get(i) != -1)
-                return minVal.get(i);
-        }
-        return -1;
+    //   Collections.reverse(result);
+        return result;
     }
 }
+
+/*
+//code for next smallest element on the right side
+{
+        Stack<Integer> stack = new Stack<>();
+        ArrayList<Integer> result = new ArrayList<>();
+        for (int i = a.size()-1; i >=0 ; i--) {
+            while (!stack.isEmpty() && stack.peek() >= a.get(i)) stack.pop();
+            if(stack.isEmpty())
+                result.add(-1);
+              else result.add(stack.peek());
+            stack.push(a.get(i));
+        }
+        Collections.reverse(result);
+        return result;
+    }
+ */
