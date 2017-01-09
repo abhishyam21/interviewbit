@@ -11,7 +11,7 @@ import java.util.stream.Stream;
  */
 public class SortByColor {
     public static void main(String[] args) {
-        Integer[] temp = {1,0,0,1,2,2,2,0,1,1,1,0};
+        Integer[] temp = {1,2,0,2,2,2,2,0,1,1,0,0};
         ArrayList<Integer> a = new ArrayList<>(Arrays.asList(temp));
         SortByColor sortByColor = new SortByColor();
         sortByColor.sortColors(a);
@@ -20,16 +20,18 @@ public class SortByColor {
 
     private void sortColors(ArrayList<Integer> a) {
         int zero = 0;
-        int n = a.size()-1;
-        int two = n;
-        for (int i = 0; i <= n; i++) {
+        int two = a.size()-1;
+        int i=0;
+        while (i <= two){
             if(a.get(i) == 0){
                 swap(a,i,zero);
                 zero++;
-            }if(a.get(n-i) ==2){
-                swap(a,(n-i),two);
+            }if(a.get(i) ==2){
+                swap(a,(i),two);
                 two--;
+                i--;
             }
+            i++;
         }
     }
 
