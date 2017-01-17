@@ -1,4 +1,4 @@
-package test.com.backtracking;
+package backtracking;
 
 /**
  * Created by abhishyam.c on 1/17/2017.
