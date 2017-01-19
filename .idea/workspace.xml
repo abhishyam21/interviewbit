@@ -33,19 +33,13 @@
       <file leaf-file-name="NQueensProblem.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/backtracking/NQueensProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermutationsOfString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationsOfString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="266">
+              <caret line="122" column="57" lean-forward="true" selection-start-line="122" selection-start-column="57" selection-end-line="122" selection-end-column="57" />
+              <folding>
+                <element signature="class#NQueensWithNbyNSpace#0;class#NQueensProblem#0" expanded="false" />
+                <element signature="e#3919#3920#0" expanded="true" />
+                <element signature="e#3979#3980#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/trees/SumRootToLeafNumbers.java" />
-        <option value="$PROJECT_DIR$/src/trees/MaxDepthOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/trees/MinDepthOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/trees/KthSmallestElementInTree.java" />
         <option value="$PROJECT_DIR$/src/trees/TwoSumBinaryTree.java" />
@@ -124,8 +116,10 @@
         <option value="$PROJECT_DIR$/src/heapsandmaps/DoubleLinkedList.java" />
         <option value="$PROJECT_DIR$/src/heapsandmaps/LRUTest.java" />
         <option value="$PROJECT_DIR$/src/heapsandmaps/LeastRecentlyUsedCache.java" />
-        <option value="$PROJECT_DIR$/src/backtracking/NQueensProblem.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/Subtract.java" />
         <option value="$PROJECT_DIR$/src/backtracking/PermutationsOfString.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/AllUniquePermutations.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/NQueensProblem.java" />
       </list>
     </option>
   </component>
@@ -157,7 +151,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,32 +194,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="heapsandmaps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interviewBit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interviewBit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="backtracking" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,47 +223,7 @@
       <recent name="E:\open source\interviewBit\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PermutationsOfString">
-    <configuration default="false" name="MagicianAndChocolates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="heapsandmaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="heapsandmaps.MagicianAndChocolates" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="interviewBit" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="MergeKSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="heapsandmaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="heapsandmaps.MergeKSortedLists" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="interviewBit" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.NQueensProblem">
     <configuration default="false" name="DistinctNumbersInWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -336,6 +272,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="backtracking.PermutationsOfString" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interviewBit" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NQueensProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="backtracking.NQueensProblem" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interviewBit" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Subtract" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="linkedlist.Subtract" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -732,19 +708,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MagicianAndChocolates" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MergeKSortedLists" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DistinctNumbersInWindow" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LRUTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PermutationsOfString" />
+      <item index="0" class="java.lang.String" itemvalue="Application.DistinctNumbersInWindow" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LRUTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PermutationsOfString" />
+      <item index="3" class="java.lang.String" itemvalue="Application.NQueensProblem" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Subtract" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PermutationsOfString" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LRUTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DistinctNumbersInWindow" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MagicianAndChocolates" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MergeKSortedLists" />
+        <item index="0" class="java.lang.String" itemvalue="Application.NQueensProblem" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PermutationsOfString" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Subtract" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LRUTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DistinctNumbersInWindow" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -809,12 +785,13 @@
       <workItem from="1484452673228" duration="25727000" />
       <workItem from="1484532189308" duration="1514000" />
       <workItem from="1484582679962" duration="144000" />
-      <workItem from="1484667750611" duration="557000" />
+      <workItem from="1484667750611" duration="3818000" />
+      <workItem from="1484796857020" duration="4245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132066000" />
+    <option name="totallyTimeSpent" value="139572000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -826,7 +803,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -839,7 +816,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33753943" sideWeight="0.5043924" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33753943" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33753943" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -964,41 +941,35 @@
           <properties />
           <option name="timeStamp" value="377" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/PermutationsOfString.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="379" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/NQueensProblem.java</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="380" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="378" />
+      <option name="time" value="382" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="result" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/trees/MinDepthOfBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="9" column="48" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees/LambdaExpExm.java" />
-    <entry file="file://$PROJECT_DIR$/src/trees/ZigZagLevelOrderTraversalBt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees/InvertTheBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/trees/BstIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-130">
@@ -1218,17 +1189,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#226#227#0" expanded="false" />
-            <element signature="e#267#268#0" expanded="false" />
-            <element signature="e#1845#1846#0" expanded="false" />
-            <element signature="e#1878#1879#0" expanded="false" />
-            <element signature="e#1918#1919#0" expanded="false" />
-            <element signature="e#1951#1952#0" expanded="false" />
-            <element signature="e#1986#1987#0" expanded="false" />
-            <element signature="e#2022#2023#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1237,7 +1197,7 @@
         <state relative-caret-position="22">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1254,27 +1214,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/heapsandmaps/DoubleLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/heapsandmaps/DoubleLinkedList.java" />
     <entry file="file://$PROJECT_DIR$/src/heapsandmaps/LeastRecentlyUsedCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1294,19 +1241,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/AddTwoNumbersAsLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationsOfString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="589">
+          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/AllUniquePermutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/Subtract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/backtracking/NQueensProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="266">
+          <caret line="122" column="57" lean-forward="true" selection-start-line="122" selection-start-column="57" selection-end-line="122" selection-end-column="57" />
+          <folding>
+            <element signature="class#NQueensWithNbyNSpace#0;class#NQueensProblem#0" expanded="false" />
+            <element signature="e#3919#3920#0" expanded="true" />
+            <element signature="e#3979#3980#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

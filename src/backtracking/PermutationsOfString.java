@@ -1,14 +1,16 @@
 package backtracking;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by abhishyam.c on 1/16/2017.
  */
 public class PermutationsOfString {
-    private static ArrayList<String> result = new ArrayList<>();
+    private static Set<String> result = new HashSet<>();
     public static void main(String[] args) {
-        String a = "abc";
+        String a = "aac";
         PermutationsOfString permutationsOfString = new PermutationsOfString();
         permutationsOfString.permutation(a);
         System.out.println(result.toString());
