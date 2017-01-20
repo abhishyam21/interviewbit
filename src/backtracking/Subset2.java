@@ -1,20 +1,18 @@
 package backtracking;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.*;
 
 /**
- * Created by abhishyam.c on 12/16/2016.
+ * Created by Rachana Rao on 1/21/2017.
  */
-public class Subset {
+public class Subset2 {
     int N;
     ArrayList<Integer> list;
-    ArrayList<ArrayList<Integer>> result;
+    Set<ArrayList<Integer>> result;
     public static void main(String[] args) {
         Integer[] temp = {1,2,2};
         ArrayList<Integer> a = new ArrayList<>(Arrays.asList(temp));
-        Subset subset = new Subset();
+        Subset2 subset = new Subset2();
         ArrayList<ArrayList<Integer>> subsets = subset.subsets(a);
         for (ArrayList<Integer> arrayList : subsets) {
             System.out.println(arrayList.toString());
@@ -25,9 +23,12 @@ public class Subset {
         this.list = a;
         Collections.sort(list);
         N = list.size();
-        result = new ArrayList<>();
+        result = new HashSet<>();
         subset(0, new ArrayList<>());
-        result.sort((a12, b) -> {
+
+        ArrayList<ArrayList<Integer>> subsets = new ArrayList<>();
+        subsets.addAll(result);
+        subsets.sort((a12, b) -> {
             int a1 = a12.size();
             int a2 = b.size();
             int res = 0;
@@ -37,7 +38,7 @@ public class Subset {
             }
             return Integer.compare(a1, a2);
         });
-        return result;
+        return subsets;
     }
 
     private void subset(int position, ArrayList<Integer> subset) {
@@ -50,31 +51,5 @@ public class Subset {
         subset(position+1,subset);
         subset.remove(subset.size()-1);
     }
-
-   /* public ArrayList<ArrayList<Integer>> subsets(ArrayList<Integer> a) {
-        Collections.sort(a);
-        ArrayList<ArrayList<Integer>> subsetsList = new ArrayList<>();
-        int pow = (int) Math.pow(2, a.size());
-        for (int i = 0; i < pow; i++) {
-            ArrayList<Integer> subsetList = new ArrayList<>();
-            for (int j = 0; j < a.size(); j++) {
-                if ((i & (1<<j)) !=0)
-                    subsetList.add(a.get(j));
-            }
-            subsetsList.add(subsetList);
-        }
-
-        subsetsList.sort((a12, b) -> {
-            int a1 = a12.size();
-            int a2 = b.size();
-            int res = 0;
-            for (int i = 0; i < Math.min(a1, a2); i++) {
-                res = Integer.compare(a12.get(i), b.get(i));
-                if (res != 0) return res;
-            }
-            return Integer.compare(a1, a2);
-        });
-        return subsetsList;
-    }
-*/
 }
+
