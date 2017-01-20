@@ -25,7 +25,7 @@ public class PalindromePartitioning {
                 }
             }
         }
-      /*  Collections.sort(result, new Comparator<String>() {
+      /*  Collections.sort(subsetsList, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
                 int c = Integer.compare(o1.length(),o2.length());

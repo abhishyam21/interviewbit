@@ -148,8 +148,8 @@ public class NQueensProblem {
             int prevRow = row-1;
             int nextRow = row+1;
 
-            return //(prevCol>=0 && result[prevCol]!=1) &&
-                    (nextCol < N && result[nextCol] != 1) &&
-                    //(prevRow>=0 && result[prevRow]!=1) &&
-                    (nextRow < N && result[nextRow] != 1) ;
+            return //(prevCol>=0 && subsetsList[prevCol]!=1) &&
+                    (nextCol < N && subsetsList[nextCol] != 1) &&
+                    //(prevRow>=0 && subsetsList[prevRow]!=1) &&
+                    (nextRow < N && subsetsList[nextRow] != 1) ;
      */
