@@ -31,7 +31,7 @@ public class Combinations {
         }
         for (int i = position+1; i <= n; i++) {
             subset.add(i);
-            subset(n,1+position,subset,k);
+            subset(n,i,subset,k);
             subset.remove(subset.size()-1);
         }
     }

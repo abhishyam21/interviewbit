@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92f4d162-b944-4ae7-8b31-3488042be7d8" name="Default" comment="added problem from arrays">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/backtracking/Subset2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/interviewBit/backtracking/Combinations.class" afterPath="$PROJECT_DIR$/out/production/interviewBit/backtracking/Combinations.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/interviewBit/backtracking/Subset.class" afterPath="$PROJECT_DIR$/out/production/interviewBit/backtracking/Subset.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backtracking/Combinations.java" afterPath="$PROJECT_DIR$/src/backtracking/Combinations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backtracking/Subset.java" afterPath="$PROJECT_DIR$/src/backtracking/Subset.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stack/GenerateAllParentheses.java" afterPath="$PROJECT_DIR$/src/stack/GenerateAllParentheses.java" />
     </list>
     <ignored path="interviewBit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +34,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Combinations.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NQueensProblem.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/backtracking/NQueensProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="124" column="17" lean-forward="false" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
+              <folding>
+                <element signature="class#NQueensWithNbyNSpace#0;class#NQueensProblem#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Combinations.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/backtracking/Combinations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="231">
+              <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,8 +61,8 @@
       <file leaf-file-name="Subset.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/backtracking/Subset.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="38" column="11" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="38" selection-end-column="11" />
+            <state relative-caret-position="193">
+              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -65,6 +74,18 @@
             <state relative-caret-position="216">
               <caret line="49" column="39" lean-forward="true" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenerateAllParenthesesIi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/backtracking/GenerateAllParenthesesIi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,9 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/trees/FlattenBinaryTreeToLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/trees/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/trees/TreeLinkNode.java" />
         <option value="$PROJECT_DIR$/src/trees/PopulateNextRightPointersTree.java" />
         <option value="$PROJECT_DIR$/src/trees/ShortestUniquePrefix.java" />
         <option value="$PROJECT_DIR$/src/trees/LeastCommonAncestor.java" />
@@ -145,6 +163,9 @@
         <option value="$PROJECT_DIR$/src/backtracking/Subset.java" />
         <option value="$PROJECT_DIR$/src/backtracking/Subset2.java" />
         <option value="$PROJECT_DIR$/src/backtracking/Combinations.java" />
+        <option value="$PROJECT_DIR$/src/stack/GenerateAllParentheses.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/PrintValidParentheses.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/GenerateAllParenthesesIi.java" />
       </list>
     </option>
   </component>
@@ -248,67 +269,7 @@
       <recent name="E:\open source\interviewBit\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Combinations">
-    <configuration default="false" name="SubsetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="backtracking.SubsetSum" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="interviewBit" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Subset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="backtracking.Subset" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="interviewBit" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="CombinationSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="backtracking.CombinationSum2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="interviewBit" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.GenerateAllParenthesesIi">
     <configuration default="false" name="Combinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -337,6 +298,66 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="backtracking.Subset2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interviewBit" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="GenerateAllParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="stack.GenerateAllParentheses" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interviewBit" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="GenerateAllParenthesesIi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="backtracking.GenerateAllParenthesesIi" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interviewBit" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PrintValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="backtracking.PrintValidParentheses" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -733,19 +754,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SubsetSum" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Subset" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CombinationSum2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Combinations" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Subset2" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Combinations" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Subset2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GenerateAllParentheses" />
+      <item index="3" class="java.lang.String" itemvalue="Application.GenerateAllParenthesesIi" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PrintValidParentheses" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Combinations" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Subset2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Subset" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CombinationSum2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SubsetSum" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GenerateAllParenthesesIi" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PrintValidParentheses" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GenerateAllParentheses" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Combinations" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Subset2" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -814,7 +835,7 @@
       <workItem from="1484796857020" duration="9574000" />
       <workItem from="1484906644134" duration="9598000" />
       <workItem from="1484927949625" duration="3813000" />
-      <workItem from="1484954064964" duration="2690000" />
+      <workItem from="1484954064964" duration="9134000" />
     </task>
     <task id="LOCAL-00001" summary="added problem from arrays">
       <created>1484928086897</created>
@@ -827,7 +848,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161002000" />
+    <option name="totallyTimeSpent" value="167446000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -852,7 +873,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33753943" sideWeight="0.5043924" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33753943" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33753943" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1011,11 +1032,17 @@
           <properties />
           <option name="timeStamp" value="393" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/GenerateAllParenthesesIi.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="394" />
+      <option name="time" value="396" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1028,30 +1055,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/stack/NearestSmallerElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees/KthSmallestElementInTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KthSmallestElementInArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/twoPointers/ThreeSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1292,6 +1295,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="1232" column="22" lean-forward="false" selection-start-line="1232" selection-start-column="22" selection-end-line="1232" selection-end-column="22" />
+          <folding>
+            <element signature="e#47036#47037#0" expanded="false" />
+            <element signature="e#47092#47093#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1299,16 +1306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-149">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backtracking/NQueensProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="124" column="17" lean-forward="false" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
-          <folding>
-            <element signature="class#NQueensWithNbyNSpace#0;class#NQueensProblem#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1338,10 +1335,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/Combinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/backtracking/Subset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="38" column="11" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="38" selection-end-column="11" />
+        <state relative-caret-position="193">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1354,12 +1361,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backtracking/Combinations.java">
+    <entry file="file://$PROJECT_DIR$/src/stack/GenerateAllParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="133">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/PrintValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/GenerateAllParenthesesIi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/NQueensProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="124" column="17" lean-forward="false" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="17" />
+          <folding>
+            <element signature="class#NQueensWithNbyNSpace#0;class#NQueensProblem#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -29,4 +29,6 @@ public class GenerateAllParentheses {
         }
         return closingBrackets.isEmpty() ? curlyBraces.isEmpty() ? squareBraces.isEmpty() ? 1 :0 :0: 0;
     }
+
+
 }
