@@ -3,14 +3,21 @@ package backtracking;
 import java.util.*;
 
 /**
+ * For this problem, general permutations of the string is not going to work.
+ * We need to arrange the numbers in the lexicographical  sorted order
+ * We are going do recursive calls till Kth element and then we are gone return
+ * the list of all the permutations of the given number in lexicographical order
+ *
  * Created by Rachana Rao on 1/23/2017.
  */
+
+
 public class KthPermutationSequence {
     private static List<String> result = new ArrayList<>();
     public static void main(String[] args) {
         KthPermutationSequence kthPermutationSequence = new KthPermutationSequence();
         int n=3,k=4;
-        System.out.println(kthPermutationSequence.getPermutation(2,1));
+        System.out.println(kthPermutationSequence.getPermutation(4,28));
     }
 
     private String getPermutation(int n, int k) {
@@ -19,7 +26,7 @@ public class KthPermutationSequence {
             str.add(i);
         }
        permute(str,0,k);
-        String temp = result.get(k-1);
+        String temp = result.get(--k);
         return temp;
     }
 
@@ -39,9 +46,7 @@ public class KthPermutationSequence {
 
     private String getString(ArrayList<Integer> str) {
         String res = "";
-        for (int i = 0; i < str.size(); i++) {
-            res+=str.get(i)+"";
-        }
+        for (Integer aStr : str) res += aStr + "";
         return res;
     }
 

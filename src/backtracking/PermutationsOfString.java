@@ -10,7 +10,7 @@ import java.util.Set;
 public class PermutationsOfString {
     private static Set<String> result = new HashSet<>();
     public static void main(String[] args) {
-        String a = "aac";
+        String a = "1234";
         PermutationsOfString permutationsOfString = new PermutationsOfString();
         permutationsOfString.permutation(a);
         System.out.println(result.toString());

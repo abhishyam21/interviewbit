@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92f4d162-b944-4ae7-8b31-3488042be7d8" name="Default" comment="added problem from arrays">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/interviewBit/test/com/backtracking/WordInMatrix.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/interviewBit/backtracking/KthPermutationSequence.class" afterPath="$PROJECT_DIR$/out/production/interviewBit/backtracking/KthPermutationSequence.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/interviewBit/backtracking/Permutations.class" afterPath="$PROJECT_DIR$/out/production/interviewBit/backtracking/Permutations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/interviewBit/backtracking/PermutationsOfString.class" afterPath="$PROJECT_DIR$/out/production/interviewBit/backtracking/PermutationsOfString.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backtracking/KthPermutationSequence.java" afterPath="$PROJECT_DIR$/src/backtracking/KthPermutationSequence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backtracking/Permutations.java" afterPath="$PROJECT_DIR$/src/backtracking/Permutations.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backtracking/PermutationsOfString.java" afterPath="$PROJECT_DIR$/src/backtracking/PermutationsOfString.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/backtracking/WordInMatrix.java" afterPath="$PROJECT_DIR$/src/backtracking/WordInMatrix.java" />
     </list>
     <ignored path="interviewBit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,28 +43,30 @@
       <file leaf-file-name="KthPermutationSequence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/backtracking/KthPermutationSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="684">
+              <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PalindromePartitioning.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/backtracking/PalindromePartitioning.java">
+      <file leaf-file-name="LexicographicalPermutations.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/backtracking/LexicographicalPermutations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="39" column="66" lean-forward="false" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
-              <folding />
+            <state relative-caret-position="254">
+              <caret line="32" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Permutations.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Permutations.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/backtracking/Permutations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="475">
+              <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,9 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/twoPointers/ThreeSum.java" />
-        <option value="$PROJECT_DIR$/src/twoPointers/ThreeSumZero.java" />
-        <option value="$PROJECT_DIR$/src/twoPointers/RemoveElementFromArray.java" />
         <option value="$PROJECT_DIR$/src/twoPointers/SortByColor.java" />
         <option value="$PROJECT_DIR$/src/twoPointers/RemoveDuplicatesFromSortedArray.java" />
         <option value="$PROJECT_DIR$/src/twoPointers/RemoveDuplicatesFromSortedArrayIi.java" />
@@ -136,10 +143,13 @@
         <option value="$PROJECT_DIR$/src/backtracking/SUDOKU.java" />
         <option value="$PROJECT_DIR$/src/backtracking/SudokuGenerater.java" />
         <option value="$PROJECT_DIR$/src/backtracking/Sudoku.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/PalindromePartitioning.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/WordInMatrix.java" />
         <option value="$PROJECT_DIR$/src/backtracking/PermutationsOfString.java" />
         <option value="$PROJECT_DIR$/src/backtracking/Permutations.java" />
         <option value="$PROJECT_DIR$/src/backtracking/KthPermutationSequence.java" />
-        <option value="$PROJECT_DIR$/src/backtracking/PalindromePartitioning.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/LexicoGraphicalPermutations.java" />
+        <option value="$PROJECT_DIR$/src/backtracking/LexicographicalPermutations.java" />
       </list>
     </option>
   </component>
@@ -197,11 +207,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interviewBit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interviewBit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backtracking" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,27 +256,7 @@
       <recent name="E:\open source\interviewBit\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PalindromePartitioning">
-    <configuration default="false" name="Sudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="backtracking.Sudoku" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="interviewBit" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.LexicographicalPermutations">
     <configuration default="false" name="PermutationsOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -317,6 +325,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="backtracking.PalindromePartitioning" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interviewBit" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LexicographicalPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="backtracking.LexicographicalPermutations" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -713,19 +741,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Sudoku" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PermutationsOfString" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Permutations" />
-      <item index="3" class="java.lang.String" itemvalue="Application.KthPermutationSequence" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PalindromePartitioning" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PermutationsOfString" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Permutations" />
+      <item index="2" class="java.lang.String" itemvalue="Application.KthPermutationSequence" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PalindromePartitioning" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LexicographicalPermutations" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PalindromePartitioning" />
-        <item index="1" class="java.lang.String" itemvalue="Application.KthPermutationSequence" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Permutations" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PermutationsOfString" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Sudoku" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LexicographicalPermutations" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Permutations" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PermutationsOfString" />
+        <item index="3" class="java.lang.String" itemvalue="Application.KthPermutationSequence" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PalindromePartitioning" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -799,7 +827,8 @@
       <workItem from="1485084413618" duration="620000" />
       <workItem from="1485101571872" duration="4925000" />
       <workItem from="1485184400327" duration="4271000" />
-      <workItem from="1485401122339" duration="1125000" />
+      <workItem from="1485401122339" duration="8537000" />
+      <workItem from="1485427943525" duration="106000" />
     </task>
     <task id="LOCAL-00001" summary="added problem from arrays">
       <created>1484928086897</created>
@@ -812,7 +841,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181887000" />
+    <option name="totallyTimeSpent" value="189405000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -825,7 +854,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -838,12 +867,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33753943" sideWeight="0.5043924" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3371522" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3371522" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22163388" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2246596" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1017,15 +1046,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/backtracking/Permutations.java</url>
-          <line>25</line>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="406" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/backtracking/KthPermutationSequence.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="408" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/backtracking/PalindromePartitioning.java</url>
@@ -1033,15 +1056,33 @@
           <properties />
           <option name="timeStamp" value="409" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/KthPermutationSequence.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/PermutationsOfString.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/LexicographicalPermutations.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="410" />
+      <option name="time" value="414" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="a" />
+        <watch expression="results" />
       </configuration>
     </watches-manager>
   </component>
@@ -1050,23 +1091,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/twoPointers/RemoveDuplicatesFromSortedArrayIi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/twoPointers/RemoveElementFromArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/twoPointers/ThreeSumZero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -1335,8 +1359,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/backtracking/PermutationsOfString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="303">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/PalindromePartitioning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="42" column="64" lean-forward="true" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/WordInMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/backtracking/Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1345,24 +1395,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/backtracking/KthPermutationSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="684">
+          <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/backtracking/PalindromePartitioning.java">
+    <entry file="file://$PROJECT_DIR$/src/backtracking/LexicographicalPermutations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="39" column="66" lean-forward="false" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/backtracking/Permutations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="254">
+          <caret line="32" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

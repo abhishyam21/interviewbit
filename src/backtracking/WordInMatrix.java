@@ -1,4 +1,4 @@
-package test.com.backtracking;
+package backtracking;
 
 /**
  * problem link http://algorithms.tutorialhorizon.com/backtracking-search-a-word-in-a-matrix/
