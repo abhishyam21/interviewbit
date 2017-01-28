@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92f4d162-b944-4ae7-8b31-3488042be7d8" name="Default" comment="added problem from arrays">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/twoPointers/MaxContinuousSeriesof1s.java" afterPath="$PROJECT_DIR$/src/twoPointers/MaxContinuousSeriesof1s.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/stack/SlidingWindowMax.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="interviewBit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,12 +33,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MaxContinuousSeriesof1s.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaxContinuousSeriesof1s.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/twoPointers/MaxContinuousSeriesof1s.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
               <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlidingWindowMax.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/stack/SlidingWindowMax.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="45" column="5" lean-forward="false" selection-start-line="19" selection-start-column="70" selection-end-line="45" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,7 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/twoPointers/RemoveDuplicatesFromSortedArray.java" />
         <option value="$PROJECT_DIR$/src/twoPointers/RemoveDuplicatesFromSortedArrayIi.java" />
         <option value="$PROJECT_DIR$/src/twoPointers/IntersectionOfSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/twoPointers/MergeTwoSortedListsIi.java" />
@@ -118,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/backtracking/GrayCode.java" />
         <option value="$PROJECT_DIR$/src/backtracking/KthPermutationSequence.java" />
         <option value="$PROJECT_DIR$/src/twoPointers/MaxContinuousSeriesof1s.java" />
+        <option value="$PROJECT_DIR$/src/stack/SlidingWindowMax.java" />
       </list>
     </option>
   </component>
@@ -192,7 +205,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="twoPointers" />
+              <option name="myItemId" value="stack" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,39 +225,19 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="backtracking" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="trees" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\open source\interviewBit\src\stack" />
       <recent name="E:\open source\interviewBit\src\backtracking" />
       <recent name="E:\open source\interviewBit\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="trees" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="backtracking" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MaxContinuousSeriesof1s">
-    <configuration default="false" name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="backtracking.Permutations" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="interviewBit" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.SlidingWindowMax">
     <configuration default="false" name="KthPermutationSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -313,6 +306,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="twoPointers.MaxContinuousSeriesof1s" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interviewBit" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SlidingWindowMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="stack.SlidingWindowMax" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -709,19 +722,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Permutations" />
-      <item index="1" class="java.lang.String" itemvalue="Application.KthPermutationSequence" />
-      <item index="2" class="java.lang.String" itemvalue="Application.LexicographicalPermutations" />
-      <item index="3" class="java.lang.String" itemvalue="Application.GrayCode" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MaxContinuousSeriesof1s" />
+      <item index="0" class="java.lang.String" itemvalue="Application.KthPermutationSequence" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LexicographicalPermutations" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GrayCode" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MaxContinuousSeriesof1s" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SlidingWindowMax" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MaxContinuousSeriesof1s" />
-        <item index="1" class="java.lang.String" itemvalue="Application.KthPermutationSequence" />
-        <item index="2" class="java.lang.String" itemvalue="Application.GrayCode" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LexicographicalPermutations" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Permutations" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SlidingWindowMax" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MaxContinuousSeriesof1s" />
+        <item index="2" class="java.lang.String" itemvalue="Application.KthPermutationSequence" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GrayCode" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LexicographicalPermutations" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -797,7 +810,7 @@
       <workItem from="1485184400327" duration="4271000" />
       <workItem from="1485401122339" duration="8537000" />
       <workItem from="1485427943525" duration="7875000" />
-      <workItem from="1485582323104" duration="10704000" />
+      <workItem from="1485582323104" duration="12369000" />
     </task>
     <task id="LOCAL-00001" summary="added problem from arrays">
       <created>1484928086897</created>
@@ -810,7 +823,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207878000" />
+    <option name="totallyTimeSpent" value="209543000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -836,7 +849,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33753943" sideWeight="0.5043924" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3371522" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3371522" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1049,15 +1062,22 @@
           <properties />
           <option name="timeStamp" value="420" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stack/SlidingWindowMax.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="422" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="421" />
+      <option name="time" value="423" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="result" />
+        <watch expression="a.get(i)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -1066,13 +1086,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/twoPointers/CountingTriangles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Deer.java" />
     <entry file="file://$PROJECT_DIR$/src/ReinDeer.java" />
     <entry file="file://$PROJECT_DIR$/src/twoPointers/Diffk.java">
@@ -1373,6 +1386,16 @@
         <state relative-caret-position="384">
           <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stack/SlidingWindowMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="45" column="5" lean-forward="false" selection-start-line="19" selection-start-column="70" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
