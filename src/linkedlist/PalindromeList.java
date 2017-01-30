@@ -1,7 +1,6 @@
 package linkedlist;
 
 public class PalindromeList {
-    private ListNode left;
     public static void main(String[] args) {
         ListNode a = ReverseLinkedList.getList();
         ListNode.printNode(a);
@@ -9,21 +8,34 @@ public class PalindromeList {
         System.out.println(palindromeList.lPalin(a));
     }
 
-    public int lPalin(ListNode a) {
-        left = a;
-        ListNode singlePointer = a;
-        return checkBothHalfsEqual(singlePointer);
+    public int lPalin(ListNode singlePointer) {
+        ListNode slow=singlePointer;
+        ListNode fastPointer= singlePointer;
+        while (fastPointer != null && fastPointer.next != null){
+            slow = slow.next;
+            fastPointer = fastPointer.next.next;
+        }
+        ListNode reverseList= getReverseListFromMid(slow);
+        slow = singlePointer;
+        while (slow != null && reverseList!= null){
+            if(slow.val != reverseList.val) return 0;
+            slow = slow.next;
+            reverseList = reverseList.next;
+        }
+        return 1;
     }
 
-    private int checkBothHalfsEqual(ListNode singlePointer) {
-        int result = 1;
-        if(singlePointer != null){
-            result = checkBothHalfsEqual(singlePointer.next);
-            System.out.println(singlePointer.val+"==="+left.val);
-            if(left.val != singlePointer.val)
-                return 0;
-            left = left.next;
+
+    private ListNode getReverseListFromMid(ListNode singlePointer) {
+        ListNode current = singlePointer;
+        ListNode prev = null;
+        while (current != null){
+            ListNode next = current.next;
+                    current.next = prev;
+                    prev = current;
+                    current = next;
         }
-        return result;
+
+        return prev;
     }
 }

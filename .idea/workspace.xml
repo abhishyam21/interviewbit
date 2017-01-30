@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92f4d162-b944-4ae7-8b31-3488042be7d8" name="Default" comment="added problem from arrays">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/interviewBit/backtracking/NQueens.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/interviewBit/linkedlist/PalindromeList.class" afterPath="$PROJECT_DIR$/out/production/interviewBit/linkedlist/PalindromeList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/interviewBit/linkedlist/ReverseLinkedList.class" afterPath="$PROJECT_DIR$/out/production/interviewBit/linkedlist/ReverseLinkedList.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/backtracking/Array3Pointers.java" afterPath="$PROJECT_DIR$/src/twoPointers/Array3Pointers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/linkedlist/PalindromeList.java" afterPath="$PROJECT_DIR$/src/linkedlist/PalindromeList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java" afterPath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java" />
     </list>
     <ignored path="interviewBit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,11 +56,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Array3Pointers.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Array3Pointers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/twoPointers/Array3Pointers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="266">
+              <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PalindromeList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/linkedlist/PalindromeList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="25" column="5" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="25" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -89,8 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/twoPointers/MergeTwoSortedListsIi.java" />
-        <option value="$PROJECT_DIR$/src/twoPointers/CountingTriangles.java" />
         <option value="$PROJECT_DIR$/src/twoPointers/Diffk.java" />
         <option value="$PROJECT_DIR$/src/Deer.java" />
         <option value="$PROJECT_DIR$/src/ReinDeer.java" />
@@ -140,6 +160,8 @@
         <option value="$PROJECT_DIR$/src/backtracking/NQueensProblem.java" />
         <option value="$PROJECT_DIR$/src/backtracking/NQueens.java" />
         <option value="$PROJECT_DIR$/src/twoPointers/Array3Pointers.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/PalindromeList.java" />
       </list>
     </option>
   </component>
@@ -214,7 +236,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="twoPointers" />
+              <option name="myItemId" value="linkedlist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,27 +268,7 @@
       <recent name="backtracking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Array3Pointers">
-    <configuration default="false" name="MaxContinuousSeriesof1s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="twoPointers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="twoPointers.MaxContinuousSeriesof1s" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="interviewBit" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.PalindromeList">
     <configuration default="false" name="SlidingWindowMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -335,6 +337,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="twoPointers.Array3Pointers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interviewBit" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PalindromeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="linkedlist.PalindromeList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -731,19 +753,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MaxContinuousSeriesof1s" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SlidingWindowMax" />
-      <item index="2" class="java.lang.String" itemvalue="Application.NQueensProblem" />
-      <item index="3" class="java.lang.String" itemvalue="Application.NQueens" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Array3Pointers" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SlidingWindowMax" />
+      <item index="1" class="java.lang.String" itemvalue="Application.NQueensProblem" />
+      <item index="2" class="java.lang.String" itemvalue="Application.NQueens" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Array3Pointers" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PalindromeList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Array3Pointers" />
-        <item index="1" class="java.lang.String" itemvalue="Application.NQueens" />
-        <item index="2" class="java.lang.String" itemvalue="Application.NQueensProblem" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SlidingWindowMax" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MaxContinuousSeriesof1s" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PalindromeList" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Array3Pointers" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NQueens" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NQueensProblem" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SlidingWindowMax" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -820,7 +842,7 @@
       <workItem from="1485401122339" duration="8537000" />
       <workItem from="1485427943525" duration="7875000" />
       <workItem from="1485582323104" duration="16673000" />
-      <workItem from="1485785623831" duration="51000" />
+      <workItem from="1485785623831" duration="1768000" />
     </task>
     <task id="LOCAL-00001" summary="added problem from arrays">
       <created>1484928086897</created>
@@ -833,7 +855,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213898000" />
+    <option name="totallyTimeSpent" value="215615000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -858,7 +880,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33753943" sideWeight="0.5043924" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3371522" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3371522" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1076,12 +1098,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="423" />
+      <option name="time" value="426" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="result" />
-        <watch expression="a.get(i)" language="JAVA" />
+        <watch expression="reverseList" />
       </configuration>
     </watches-manager>
   </component>
@@ -1090,14 +1111,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/twoPointers/Diffk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tapan/Fruit.java" />
     <entry file="file://$PROJECT_DIR$/src/tapan/FastFood.java" />
     <entry file="file://$PROJECT_DIR$/src/tapan/Food.java" />
     <entry file="file://$PROJECT_DIR$/src/tapan/Test4.java" />
@@ -1408,8 +1421,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/twoPointers/Array3Pointers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="266">
+          <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/PalindromeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="25" selection-end-column="5" />
           <folding />
         </state>
       </provider>

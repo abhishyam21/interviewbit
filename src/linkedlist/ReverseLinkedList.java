@@ -27,13 +27,13 @@ public class ReverseLinkedList {
 
     public static ListNode getList() {
         ListNode a = new ListNode(1);
-        a.next = new ListNode(2);
-        a.next.next = new ListNode(3);
+        a.next = new ListNode(1);
+        a.next.next = new ListNode(6);
         a.next.next.next = new ListNode(4);
-        a.next.next.next.next = new ListNode(5);
-        a.next.next.next.next.next = new ListNode(6);
-        a.next.next.next.next.next.next = new ListNode(7);
-        a.next.next.next.next.next.next.next = new ListNode(8);
+        a.next.next.next.next = new ListNode(1);
+        //a.next.next.next.next.next = new ListNode(2);
+       // a.next.next.next.next.next.next = new ListNode(1);
+     //   a.next.next.next.next.next.next.next = new ListNode(1);
         return a;
     }
 }
