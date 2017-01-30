@@ -10,9 +10,9 @@ import java.util.Arrays;
  */
 public class LexicographicalPermutations {
     public static void main(String[] args) {
-        String s = "abc";
+        String s = "112";
         char[] str = s.toCharArray();
-        ArrayList<Integer> counts = new ArrayList<>(Arrays.asList(1,1,1));
+        ArrayList<Integer> counts = new ArrayList<>(Arrays.asList(2,1));
         printPermutations(str,new ArrayList<>(str.length), counts,0 );
     }
 
