@@ -22,15 +22,18 @@ public class CountingTriangles {
         int counter = 0;
         int n = a.size();
         for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                int sum = a.get(i) + a.get(j);
-                int k=j+1;
-                for (; k < n && sum > a.get(k); k++) ;
-                        counter = counter+(k-j-1);
-                        if(counter > (1000000007))
-                        counter = counter % 1000000007;
+            int k=i+2;
+            for (int j = i+1; j < n; j++) {
+                int sum = a.get(i)+a.get(j);
+                while (k< n && sum>a.get(k)){
+                    k++;
+                    counter+=(k-1-j);
+                    if(counter > 1000000007)
+                    counter = counter % (1000000007);
                 }
+
             }
+        }
         return counter;
     }
 }
