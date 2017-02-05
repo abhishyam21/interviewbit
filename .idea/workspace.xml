@@ -812,7 +812,7 @@
       <workItem from="1485885118118" duration="6841000" />
       <workItem from="1486137020988" duration="760000" />
       <workItem from="1486182019602" duration="8674000" />
-      <workItem from="1486271143700" duration="10005000" />
+      <workItem from="1486271143700" duration="10603000" />
     </task>
     <task id="LOCAL-00001" summary="added problem from arrays">
       <created>1484928086897</created>
@@ -825,7 +825,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243461000" />
+    <option name="totallyTimeSpent" value="244059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -837,7 +837,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
