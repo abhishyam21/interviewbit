@@ -41,15 +41,3 @@ public class WaysToDecode {
         return num>0 && num<27;
     }
 }
-
-/*
-{
-        for (int i = 0; i < a.length()-1; i++) {
-            String temp = a.substring(i,i+2);
-            int num = Integer.parseInt(temp);
-            if(num <27)
-                result++;
-        }
-        return result;
-    }
- */
