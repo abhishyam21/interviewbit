@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92f4d162-b944-4ae7-8b31-3488042be7d8" name="Default" comment="added problem from arrays">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dynamicProgramming/JumpGameArray.java" afterPath="$PROJECT_DIR$/src/dynamicProgramming/JumpGameArray.java" />
-    </list>
+    <list default="true" id="92f4d162-b944-4ae7-8b31-3488042be7d8" name="Default" comment="added problem from arrays" />
     <ignored path="interviewBit.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,12 +30,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JumpGameArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JumpGameArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/JumpGameArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="25" column="5" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="209">
+              <caret line="12" column="67" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="12" selection-end-column="67" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinJumpsArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/MinJumpsArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="12" column="67" lean-forward="true" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tapan/FastFood.java" />
         <option value="$PROJECT_DIR$/src/tapan/Fruit.java" />
         <option value="$PROJECT_DIR$/src/tapan/FoodFactory.java" />
         <option value="$PROJECT_DIR$/src/tapan/Example2.java" />
@@ -118,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/dynamicProgramming/IntersectingChordsInACircle.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/WaysToDecode.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/JumpGameArray.java" />
+        <option value="$PROJECT_DIR$/src/dynamicProgramming/MinJumpsArray.java" />
       </list>
     </option>
   </component>
@@ -224,27 +234,7 @@
       <recent name="backtracking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JumpGameArray">
-    <configuration default="false" name="SortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="linkedlist.SortList" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="interviewBit" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.MinJumpsArray">
     <configuration default="false" name="LexicographicalPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -313,6 +303,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="dynamicProgramming.JumpGameArray" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interviewBit" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MinJumpsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.MinJumpsArray" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -709,19 +719,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SortList" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LexicographicalPermutations" />
-      <item index="2" class="java.lang.String" itemvalue="Application.WaysToDecode" />
-      <item index="3" class="java.lang.String" itemvalue="Application.IntersectingChordsInACircle" />
-      <item index="4" class="java.lang.String" itemvalue="Application.JumpGameArray" />
+      <item index="0" class="java.lang.String" itemvalue="Application.LexicographicalPermutations" />
+      <item index="1" class="java.lang.String" itemvalue="Application.WaysToDecode" />
+      <item index="2" class="java.lang.String" itemvalue="Application.IntersectingChordsInACircle" />
+      <item index="3" class="java.lang.String" itemvalue="Application.JumpGameArray" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MinJumpsArray" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.JumpGameArray" />
-        <item index="1" class="java.lang.String" itemvalue="Application.IntersectingChordsInACircle" />
-        <item index="2" class="java.lang.String" itemvalue="Application.WaysToDecode" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LexicographicalPermutations" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SortList" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MinJumpsArray" />
+        <item index="1" class="java.lang.String" itemvalue="Application.JumpGameArray" />
+        <item index="2" class="java.lang.String" itemvalue="Application.IntersectingChordsInACircle" />
+        <item index="3" class="java.lang.String" itemvalue="Application.WaysToDecode" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LexicographicalPermutations" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -802,7 +812,7 @@
       <workItem from="1485885118118" duration="6841000" />
       <workItem from="1486137020988" duration="760000" />
       <workItem from="1486182019602" duration="8674000" />
-      <workItem from="1486271143700" duration="4634000" />
+      <workItem from="1486271143700" duration="10005000" />
     </task>
     <task id="LOCAL-00001" summary="added problem from arrays">
       <created>1484928086897</created>
@@ -815,7 +825,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238090000" />
+    <option name="totallyTimeSpent" value="243461000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -840,7 +850,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33753943" sideWeight="0.5043924" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3371522" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3371522" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1066,11 +1076,17 @@
           <properties />
           <option name="timeStamp" value="430" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dynamicProgramming/MinJumpsArray.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="437" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="435" />
+      <option name="time" value="438" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1083,13 +1099,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/heapsandmaps/MaxHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/heapsandmaps/MergeKSortedLists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -1447,9 +1456,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/JumpGameArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="209">
+          <caret line="12" column="67" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="12" selection-end-column="67" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/MinJumpsArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="12" column="67" lean-forward="true" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
