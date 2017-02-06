@@ -15,8 +15,36 @@ public class LargestRectangleInHistogram {
         a.addAll(Arrays.asList(temp));
         LargestRectangleInHistogram largestRectangleInHistogram = new LargestRectangleInHistogram();
         System.out.println(largestRectangleInHistogram.largestRectangleArea(a));
+        System.out.println(largestRectangleInHistogram.maxAreaInHist(a));
     }
-
+        //This method works in O(N) time complexity
+     private int maxAreaInHist(ArrayList<Integer> a) {
+        Stack<Integer> stack = new Stack<>();
+        int max_area = 0;
+        int top = 0;
+        int i=0,n=a.size();
+        while (i<n){
+            if(stack.isEmpty() || a.get(stack.peek()) <=a.get(i)){
+                stack.push(i++);
+            }else {
+                top = stack.pop();
+                //calculate the area
+                    int area = a.get(top) * (stack.isEmpty() ? i :  (i-stack.peek()-1));
+                //update the max are
+                max_area = Math.max(max_area, area);
+            }
+        }
+        while (!stack.isEmpty()){
+            top = stack.pop();
+            //calculate the area
+            int area = a.get(top) * (stack.isEmpty() ? i :  (i-stack.peek()-1));
+            //update the max are
+            max_area = Math.max(max_area, area);
+        }
+        return max_area;
+    }
+    
+    //This method works in 3*O(N) time complexity
     private int largestRectangleArea(ArrayList<Integer> a) {
         ArrayList<Integer> leftMin = getLeftMin(a);
         ArrayList<Integer> rightMin = getRightMin(a);
