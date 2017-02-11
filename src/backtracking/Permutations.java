@@ -26,7 +26,7 @@ public class Permutations {
     private void permutations(ArrayList<Integer> a, int position) {
         if(position == a.size()){
             result.add(new ArrayList<>(a));
-        }else
+        }
         for (int i = position; i < a.size(); i++) {
             swap(a,position,i);
             permutations(a,1+position);
