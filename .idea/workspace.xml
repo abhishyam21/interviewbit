@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92f4d162-b944-4ae7-8b31-3488042be7d8" name="Default" comment="added problem from arrays">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dynamicProgramming/LongestIncreasingSubsequence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/interviewBit/dynamicProgramming/LongestCommonSubSequence.class" afterPath="$PROJECT_DIR$/out/production/interviewBit/dynamicProgramming/LongestCommonSubSequence.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dynamicProgramming/IncreasingSubsequencewithMaximumSum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/interviewBit/dynamicProgramming/LongestIncreasingSubsequence.class" afterPath="$PROJECT_DIR$/out/production/interviewBit/dynamicProgramming/LongestIncreasingSubsequence.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dynamicProgramming/LongestCommonSubSequence.java" afterPath="$PROJECT_DIR$/src/dynamicProgramming/LongestCommonSubSequence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dynamicProgramming/LongestIncreasingSubsequence.java" afterPath="$PROJECT_DIR$/src/dynamicProgramming/LongestIncreasingSubsequence.java" />
     </list>
     <ignored path="interviewBit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,14 +55,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestIncreasingSubsequence.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestIncreasingSubsequence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/LongestIncreasingSubsequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="178">
+              <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IncreasingSubsequencewithMaximumSum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/IncreasingSubsequencewithMaximumSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -830,7 +840,7 @@
       <workItem from="1486271143700" duration="12344000" />
       <workItem from="1486386003884" duration="2730000" />
       <workItem from="1486475544046" duration="2037000" />
-      <workItem from="1486520708228" duration="25716000" />
+      <workItem from="1486520708228" duration="29897000" />
     </task>
     <task id="LOCAL-00001" summary="added problem from arrays">
       <created>1484928086897</created>
@@ -843,7 +853,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276283000" />
+    <option name="totallyTimeSpent" value="280464000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1139,11 +1149,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="451" />
+      <option name="time" value="452" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="sol" />
+        <watch expression="a" />
       </configuration>
     </watches-manager>
   </component>
@@ -1152,7 +1162,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/backtracking/PrintValidParentheses.java" />
     <entry file="file://$PROJECT_DIR$/src/backtracking/GenerateAllParenthesesIi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1519,11 +1528,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/LongestIncreasingSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="178">
+          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/IncreasingSubsequencewithMaximumSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
