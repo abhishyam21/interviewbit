@@ -10,7 +10,8 @@ import java.util.List;
 public class LongestIncreasingSubsequence {
     public static void main(String[] args) {
         LongestIncreasingSubsequence longestIncreasingSubsequence = new LongestIncreasingSubsequence();
-        Integer[] temp = {0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15};
+        //Integer[] temp = {0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15};
+        Integer[] temp = {0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11};
         List<Integer> a = new ArrayList<>(Arrays.asList(temp));
         System.out.println(longestIncreasingSubsequence.lis(a));
         longestIncreasingSubsequence.printlis(a);
