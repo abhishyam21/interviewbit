@@ -24,7 +24,7 @@ public class MinSumPathInMatrix {
                     result[i][j] = a.get(i).get(j)+prev;
                     prev = result[i][j];
                 }else {
-                        int min = Math.min(result[i-1][j],result[i][j-1]);
+                        int min = Math.min(result[i-1][j-1],Math.min(result[i-1][j],result[i][j-1]));
                         result[i][j] = min+a.get(i).get(j);
                 }
             }
