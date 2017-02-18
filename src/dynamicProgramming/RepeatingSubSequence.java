@@ -1,5 +1,7 @@
 package dynamicProgramming;
 
+import java.util.Arrays;
+
 /**
  * Created by Rachana Rao on 2/18/2017.
  */
@@ -9,6 +11,7 @@ public class RepeatingSubSequence {
         RepeatingSubSequence subSequence = new RepeatingSubSequence();
         System.out.println(subSequence.findSeq(a));
     }
+
 
     /**
      * This solution is same as longest common subSequence
@@ -34,7 +37,4 @@ public class RepeatingSubSequence {
         }
         return 0;
     }
-
-
-
 }
