@@ -1,8 +1,5 @@
 package maths;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * Created by Rachana Rao on 8/28/2016.
  */

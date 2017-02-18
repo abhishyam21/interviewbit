@@ -1,8 +1,5 @@
 package bitmanipulations;
 
-import java.math.BigDecimal;
-import java.util.BitSet;
-
 /**
  * Created by Rachana Rao on 9/11/2016.
  */

@@ -1,7 +1,6 @@
 package heapsandmaps;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * Created by Rachana Rao on 1/15/2017.

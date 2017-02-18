@@ -1,9 +1,6 @@
 package arrays;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Stack;
 
 /**
  * Created by Rachana Rao on 8/6/2016.

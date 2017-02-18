@@ -1,7 +1,6 @@
 package backtracking;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * Created by Rachana Rao on 1/21/2017.

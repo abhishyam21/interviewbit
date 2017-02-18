@@ -19,10 +19,8 @@ public class ValidBinarySearchTree {
     private boolean BTSUtil(TreeNode a, int minValue, int maxValue) {
         if(a ==null)
             return true;
-        if(a.val > minValue && a.val < maxValue
-                && BTSUtil(a.left,minValue,a.val) &&
-                BTSUtil(a.right, a.val,maxValue))
-            return true;
-        else return false;
+        return a.val > minValue && a.val < maxValue
+                && BTSUtil(a.left, minValue, a.val) &&
+                BTSUtil(a.right, a.val, maxValue);
     }
 }

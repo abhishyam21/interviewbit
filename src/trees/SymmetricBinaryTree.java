@@ -19,6 +19,7 @@ public class SymmetricBinaryTree {
     private boolean isIdenticalTrees(TreeNode a, TreeNode b) {
         if(a == null && b==null)
             return true;
+        //noinspection SimplifiableIfStatement
         if(a!=null && b!= null)
             return (a.val==b.val) && isIdenticalTrees(a.left,b.right) && isIdenticalTrees(a.right,b.left);
         else return false;

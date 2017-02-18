@@ -3,7 +3,6 @@ package arrays;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.List;
 
 /**
  * Created by Rachana Rao on 8/19/2016.

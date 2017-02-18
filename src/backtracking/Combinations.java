@@ -1,8 +1,6 @@
 package backtracking;
 
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * Created by Rachana Rao on 1/21/2017.

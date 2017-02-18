@@ -1,8 +1,6 @@
 package twoPointers;
 
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * Created by Rachana Rao on 1/7/2017.

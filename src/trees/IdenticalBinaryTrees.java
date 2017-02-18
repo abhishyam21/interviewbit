@@ -20,10 +20,8 @@ public class IdenticalBinaryTrees {
     }
 
     private boolean isIdenticalTrees(TreeNode a, TreeNode b) {
-        if(a == null && b==null)
+        if (a == null && b == null)
             return true;
-        if(a!=null && b!= null)
-        return (a.val==b.val) && isIdenticalTrees(a.left,b.left) && isIdenticalTrees(a.right,b.right);
-        else return false;
+        return a != null && b != null && (a.val == b.val) && isIdenticalTrees(a.left, b.left) && isIdenticalTrees(a.right, b.right);
     }
 }
