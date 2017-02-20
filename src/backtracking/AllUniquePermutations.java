@@ -12,7 +12,8 @@ public class AllUniquePermutations {
     public static void main(String[] args) {
         AllUniquePermutations allUniquePermutations = new AllUniquePermutations();
         ArrayList<Integer> a = new ArrayList<>(Arrays.asList(1,1,2));
-        allUniquePermutations.permute(a);
+        ArrayList<Integer> permute = allUniquePermutations.permute(a);
+        System.out.println(permute.toString());
     }
 
     private ArrayList<Integer> permute(ArrayList<Integer> a) {
