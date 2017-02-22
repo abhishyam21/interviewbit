@@ -1,4 +1,4 @@
-package test.com.hashing;
+package hashing;
 
 import java.util.ArrayList;
 import java.util.Arrays;
