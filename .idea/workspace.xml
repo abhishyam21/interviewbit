@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92f4d162-b944-4ae7-8b31-3488042be7d8" name="Default" comment="added problem from arrays">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hashing/DiffkII.java" afterPath="$PROJECT_DIR$/src/hashing/DiffkII.java" />
-    </list>
+    <list default="true" id="92f4d162-b944-4ae7-8b31-3488042be7d8" name="Default" comment="added problem from arrays" />
     <ignored path="interviewBit.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiffkII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DiffkII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hashing/DiffkII.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
@@ -51,6 +48,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidSudoku.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hashing/ValidSudoku.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="36" column="5" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="36" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/backtracking/SUDOKU.java" />
         <option value="$PROJECT_DIR$/src/backtracking/SudokuGenerater.java" />
         <option value="$PROJECT_DIR$/src/backtracking/Sudoku.java" />
         <option value="$PROJECT_DIR$/src/backtracking/PalindromePartitioning.java" />
@@ -139,6 +145,7 @@
         <option value="$PROJECT_DIR$/src/hashing/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/hashing/LargestContinuousSequenceZeroSum.java" />
         <option value="$PROJECT_DIR$/src/hashing/DiffkII.java" />
+        <option value="$PROJECT_DIR$/src/hashing/ValidSudoku.java" />
       </list>
     </option>
   </component>
@@ -244,27 +251,7 @@
       <recent name="backtracking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DiffkII">
-    <configuration default="false" name="AllUniquePermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="backtracking.AllUniquePermutations" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="interviewBit" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ValidSudoku">
     <configuration default="false" name="LongestConsecutiveSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="LongestConsecutiveSequence" />
@@ -344,6 +331,26 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="hashing.ValidSudoku" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interviewBit" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -730,19 +737,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.AllUniquePermutations" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LongestConsecutiveSequence" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TwoSum" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DiffkII" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DiffkIITest.testDiffPossible" />
+      <item index="0" class="java.lang.String" itemvalue="Application.LongestConsecutiveSequence" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TwoSum" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DiffkII" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DiffkIITest.testDiffPossible" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ValidSudoku" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DiffkII" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DiffkIITest.testDiffPossible" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TwoSum" />
-        <item index="3" class="java.lang.String" itemvalue="Application.LongestConsecutiveSequence" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AllUniquePermutations" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ValidSudoku" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DiffkII" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DiffkIITest.testDiffPossible" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TwoSum" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LongestConsecutiveSequence" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -839,7 +846,7 @@
       <workItem from="1487692092459" duration="1146000" />
       <workItem from="1487780399960" duration="4063000" />
       <workItem from="1487784488850" duration="200000" />
-      <workItem from="1487808251817" duration="2114000" />
+      <workItem from="1487808251817" duration="3615000" />
     </task>
     <task id="LOCAL-00001" summary="added problem from arrays">
       <created>1484928086897</created>
@@ -857,7 +864,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="317681000" />
+    <option name="totallyTimeSpent" value="319182000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -869,7 +876,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="1" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -883,7 +890,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33753943" sideWeight="0.5043924" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34219268" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34219268" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1236,13 +1243,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/JumpGameArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/MinJumpsArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -1576,6 +1576,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hashing/ValidSudoku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="36" column="5" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="36" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
