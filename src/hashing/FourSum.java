@@ -1,4 +1,4 @@
-package test.com.hashing;
+package hashing;
 
 import java.util.*;
 import java.util.stream.Collectors;

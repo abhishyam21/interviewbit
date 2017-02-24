@@ -14,25 +14,28 @@ public class ValidSudoku {
     }
 
     private int isValidSudoku(List<String> a) {
-        //Check Each row
+        List<Character> rowCache = new ArrayList<>(9);
+        List<Character> columnCache = new ArrayList<>(9);
+        List<Character> blockCache = new ArrayList<>(9);
+        fill(rowCache);
+        fill(columnCache);
+        fill(blockCache);
         for (int i=0;i< 9; i++) {
-            String row= a.get(i);
-            HashSet<Character> rowCache = new HashSet<>();
-            HashSet<Character> columnCache = new HashSet<>();
-            for (int j = 0; j < row.length(); j++) {
-                char c = row.charAt(j);
-                if(c!= '.') {
-                    if (rowCache.contains(c)) return 0;
-                    rowCache.add(c);
-                }
-                //get the column position
-                c = a.get(i).charAt(j);
-                if(c!= '.'){
-                    if(columnCache.contains(c)) return 0;
-                    columnCache.add(c);
-                }
+            for (int j = 0; j < 9; j++) {
+                //get the row position
+                char c = a.get(i).charAt(j);
+                if(rowCache.get(i) ==c || columnCache.get(j) ==c || blockCache.get((i/3)*3+(j/3)) ==c) return 0;
+                rowCache.set(i,c);
+                columnCache.set(j,c);
+                blockCache.set((i/3)*3+(j/3),c);
             }
         }
         return 1;
+    }
+
+    private void fill(List<Character> rowCache) {
+        for (int i = 0; i < 9; i++) {
+            rowCache.add(i,'0');
+        }
     }
 }
