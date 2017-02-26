@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="92f4d162-b944-4ae7-8b31-3488042be7d8" name="Default" comment="added problem from arrays">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dynamicProgramming/UniquePathsInAGrid.java" afterPath="$PROJECT_DIR$/src/dynamicProgramming/UniquePathsInAGrid.java" />
     </list>
     <ignored path="interviewBit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +60,8 @@
       <file leaf-file-name="UniquePathsInAGrid.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/UniquePathsInAGrid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="760">
+              <caret line="41" column="7" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -170,8 +171,8 @@
         <option value="$PROJECT_DIR$/src/dynamicProgramming/DungeonPrincess.java" />
         <option value="$PROJECT_DIR$/src/trees/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/UniqueBinarySearchTreesII.java" />
-        <option value="$PROJECT_DIR$/src/dynamicProgramming/UniquePathsInAGrid.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/MinCostPath.java" />
+        <option value="$PROJECT_DIR$/src/dynamicProgramming/UniquePathsInAGrid.java" />
       </list>
     </option>
   </component>
@@ -278,27 +279,7 @@
       <recent name="backtracking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UniqueBinarySearchTreesII">
-    <configuration default="false" name="SubstringConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="hashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="hashing.SubstringConcatenation" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="interviewBit" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.UniquePathsInAGrid">
     <configuration default="false" name="Fraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -367,6 +348,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="dynamicProgramming.UniqueBinarySearchTreesII" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interviewBit" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="UniquePathsInAGrid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.UniquePathsInAGrid" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -753,19 +754,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SubstringConcatenation" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Fraction" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DungeonPrincess" />
-      <item index="3" class="java.lang.String" itemvalue="Application.RegularExpressionMatchii" />
-      <item index="4" class="java.lang.String" itemvalue="Application.UniqueBinarySearchTreesII" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Fraction" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DungeonPrincess" />
+      <item index="2" class="java.lang.String" itemvalue="Application.RegularExpressionMatchii" />
+      <item index="3" class="java.lang.String" itemvalue="Application.UniqueBinarySearchTreesII" />
+      <item index="4" class="java.lang.String" itemvalue="Application.UniquePathsInAGrid" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.UniqueBinarySearchTreesII" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DungeonPrincess" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RegularExpressionMatchii" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Fraction" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SubstringConcatenation" />
+        <item index="0" class="java.lang.String" itemvalue="Application.UniquePathsInAGrid" />
+        <item index="1" class="java.lang.String" itemvalue="Application.UniqueBinarySearchTreesII" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DungeonPrincess" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RegularExpressionMatchii" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Fraction" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -861,7 +862,7 @@
       <workItem from="1487784488850" duration="200000" />
       <workItem from="1487808251817" duration="6511000" />
       <workItem from="1487918246736" duration="27292000" />
-      <workItem from="1488101909840" duration="3652000" />
+      <workItem from="1488101909840" duration="6160000" />
     </task>
     <task id="LOCAL-00001" summary="added problem from arrays">
       <created>1484928086897</created>
@@ -879,7 +880,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353022000" />
+    <option name="totallyTimeSpent" value="355530000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1271,15 +1272,22 @@
           <properties />
           <option name="timeStamp" value="481" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dynamicProgramming/UniquePathsInAGrid.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="482" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="482" />
+      <option name="time" value="484" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="cache" />
+        <watch expression="a" />
       </configuration>
     </watches-manager>
   </component>
@@ -1642,8 +1650,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/UniquePathsInAGrid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="760">
+          <caret line="41" column="7" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
           <folding />
         </state>
       </provider>

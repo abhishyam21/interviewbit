@@ -16,27 +16,40 @@ public class UniquePathsInAGrid {
     private int uniquePathsWithObstacles(ArrayList<ArrayList<Integer>> a) {
         //if starting value of the matrix is zero
         if(a.get(0).get(0) == 1) return 0;
-        int m=a.size()+1;
-        int n=a.get(0).size()+1;
+        int m=a.size();
+        int n=a.get(0).size();
         //if the end position m*n is zero
-        if(a.get(m-2).get(n-2) ==1) return 0;
-        //if only one row int the matrix
-        if(a.size() ==1 ) return 1;
+        if(a.get(m-1).get(n-1) ==1) return 0;
         int[][] cache = new int[m][n];
-        for (int i = 0; i < n; i++) {
-            cache[0][i] = 1;
+        cache[0][0] = 1;
+        for (int i = 1; i < n; i++) {
+             if(a.get(0).get(i) == 1)
+                 break;
+                cache[0][i] = 1;
         }
-        for (int i = 0; i < m; i++) {
-            cache[i][0] = 1;
+
+        for (int i = 1; i < m; i++) {
+            if(a.get(i).get(0) == 1) break;
+                cache[i][0] = 1;
         }
 
         for (int i = 1; i < m; i++) {
             for (int j = 1; j < n; j++) {
-                if(a.get(i-1).get(j-1) !=1)
+                if(a.get(i).get(j) !=1)
                 cache[i][j] = cache[i-1][j]+cache[i][j-1];
             }
         }
+     //  print(cache);
         return cache[m-1][n-1];
+    }
+
+    private void print(int[][] cache) {
+        for (int i = 0; i < cache.length; i++) {
+            for (int j = 0; j < cache[i].length; j++) {
+                System.out.print(cache[i][j]+"  ");
+            }
+            System.out.println();
+        }
     }
 
     private static ArrayList<ArrayList<Integer>> getMatrix() {
