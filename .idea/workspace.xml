@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92f4d162-b944-4ae7-8b31-3488042be7d8" name="Default" comment="added problem from arrays">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/interviewBit/dynamicProgramming/RegularExpressionMatchii.class" afterPath="$PROJECT_DIR$/out/production/interviewBit/dynamicProgramming/RegularExpressionMatchii.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dynamicProgramming/DungeonPrincess.java" afterPath="$PROJECT_DIR$/src/dynamicProgramming/DungeonPrincess.java" />
     </list>
     <ignored path="interviewBit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,14 +32,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DungeonPrincess.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DungeonPrincess.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/DungeonPrincess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+            <state relative-caret-position="285">
+              <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UniqueBinarySearchTreesII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/UniqueBinarySearchTreesII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="76" lean-forward="false" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/backtracking/GrayCode.java" />
         <option value="$PROJECT_DIR$/src/backtracking/KthPermutationSequence.java" />
         <option value="$PROJECT_DIR$/src/twoPointers/MaxContinuousSeriesof1s.java" />
         <option value="$PROJECT_DIR$/src/stack/SlidingWindowMax.java" />
@@ -130,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/hashing/Fraction.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/RegularExpressionMatchii.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/DungeonPrincess.java" />
+        <option value="$PROJECT_DIR$/src/dynamicProgramming/UniqueBinarySearchTreesII.java" />
       </list>
     </option>
   </component>
@@ -235,27 +243,7 @@
       <recent name="backtracking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DungeonPrincess">
-    <configuration default="false" name="Equal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="hashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="hashing.Equal" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="interviewBit" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.UniqueBinarySearchTreesII">
     <configuration default="false" name="SubstringConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -324,6 +312,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="dynamicProgramming.RegularExpressionMatchii" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interviewBit" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="UniqueBinarySearchTreesII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.UniqueBinarySearchTreesII" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -720,19 +728,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Equal" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SubstringConcatenation" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Fraction" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DungeonPrincess" />
-      <item index="4" class="java.lang.String" itemvalue="Application.RegularExpressionMatchii" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SubstringConcatenation" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Fraction" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DungeonPrincess" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RegularExpressionMatchii" />
+      <item index="4" class="java.lang.String" itemvalue="Application.UniqueBinarySearchTreesII" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DungeonPrincess" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RegularExpressionMatchii" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Fraction" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SubstringConcatenation" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Equal" />
+        <item index="0" class="java.lang.String" itemvalue="Application.UniqueBinarySearchTreesII" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DungeonPrincess" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RegularExpressionMatchii" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Fraction" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SubstringConcatenation" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -830,7 +838,7 @@
       <workItem from="1487780399960" duration="4063000" />
       <workItem from="1487784488850" duration="200000" />
       <workItem from="1487808251817" duration="6511000" />
-      <workItem from="1487918246736" duration="23517000" />
+      <workItem from="1487918246736" duration="25537000" />
     </task>
     <task id="LOCAL-00001" summary="added problem from arrays">
       <created>1484928086897</created>
@@ -848,7 +856,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="345595000" />
+    <option name="totallyTimeSpent" value="347615000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1234,11 +1242,17 @@
           <properties />
           <option name="timeStamp" value="476" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dynamicProgramming/UniqueBinarySearchTreesII.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="479" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="479" />
+      <option name="time" value="480" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1251,13 +1265,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="32" column="71" lean-forward="true" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/backtracking/WordInMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1602,11 +1609,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/DungeonPrincess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+        <state relative-caret-position="285">
+          <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/UniqueBinarySearchTreesII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="76" lean-forward="false" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>
