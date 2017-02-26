@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="92f4d162-b944-4ae7-8b31-3488042be7d8" name="Default" comment="added problem from arrays">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dynamicProgramming/UniquePathsInAGrid.java" afterPath="$PROJECT_DIR$/src/dynamicProgramming/UniquePathsInAGrid.java" />
     </list>
     <ignored path="interviewBit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,12 +56,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UniquePathsInAGrid.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UniquePathsInAGrid.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/UniquePathsInAGrid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="41" column="7" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+            <state relative-caret-position="209">
+              <caret line="12" column="75" lean-forward="true" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BestTimeToBuyAndSellStocksI.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/BestTimeToBuyAndSellStocksI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="25" column="5" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/backtracking/NQueensProblem.java" />
         <option value="$PROJECT_DIR$/src/backtracking/NQueens.java" />
         <option value="$PROJECT_DIR$/src/twoPointers/Array3Pointers.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java" />
@@ -173,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/dynamicProgramming/UniqueBinarySearchTreesII.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/MinCostPath.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/UniquePathsInAGrid.java" />
+        <option value="$PROJECT_DIR$/src/dynamicProgramming/BestTimeToBuyAndSellStocksI.java" />
       </list>
     </option>
   </component>
@@ -279,27 +290,7 @@
       <recent name="backtracking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UniquePathsInAGrid">
-    <configuration default="false" name="Fraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="hashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="hashing.Fraction" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="interviewBit" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.BestTimeToBuyAndSellStocksI">
     <configuration default="false" name="DungeonPrincess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -368,6 +359,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="dynamicProgramming.UniquePathsInAGrid" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interviewBit" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BestTimeToBuyAndSellStocksI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.BestTimeToBuyAndSellStocksI" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -754,19 +765,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Fraction" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DungeonPrincess" />
-      <item index="2" class="java.lang.String" itemvalue="Application.RegularExpressionMatchii" />
-      <item index="3" class="java.lang.String" itemvalue="Application.UniqueBinarySearchTreesII" />
-      <item index="4" class="java.lang.String" itemvalue="Application.UniquePathsInAGrid" />
+      <item index="0" class="java.lang.String" itemvalue="Application.DungeonPrincess" />
+      <item index="1" class="java.lang.String" itemvalue="Application.RegularExpressionMatchii" />
+      <item index="2" class="java.lang.String" itemvalue="Application.UniqueBinarySearchTreesII" />
+      <item index="3" class="java.lang.String" itemvalue="Application.UniquePathsInAGrid" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BestTimeToBuyAndSellStocksI" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.UniquePathsInAGrid" />
-        <item index="1" class="java.lang.String" itemvalue="Application.UniqueBinarySearchTreesII" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DungeonPrincess" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RegularExpressionMatchii" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Fraction" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BestTimeToBuyAndSellStocksI" />
+        <item index="1" class="java.lang.String" itemvalue="Application.UniquePathsInAGrid" />
+        <item index="2" class="java.lang.String" itemvalue="Application.UniqueBinarySearchTreesII" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DungeonPrincess" />
+        <item index="4" class="java.lang.String" itemvalue="Application.RegularExpressionMatchii" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -862,7 +873,7 @@
       <workItem from="1487784488850" duration="200000" />
       <workItem from="1487808251817" duration="6511000" />
       <workItem from="1487918246736" duration="27292000" />
-      <workItem from="1488101909840" duration="6160000" />
+      <workItem from="1488101909840" duration="7997000" />
     </task>
     <task id="LOCAL-00001" summary="added problem from arrays">
       <created>1484928086897</created>
@@ -880,7 +891,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="355530000" />
+    <option name="totallyTimeSpent" value="357367000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -905,7 +916,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33753943" sideWeight="0.5043924" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34042552" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34042552" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1296,13 +1307,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/backtracking/GrayCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/backtracking/Subset2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -1650,9 +1654,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/UniquePathsInAGrid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="41" column="7" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        <state relative-caret-position="209">
+          <caret line="12" column="75" lean-forward="true" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/BestTimeToBuyAndSellStocksI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
