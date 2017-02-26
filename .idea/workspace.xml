@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92f4d162-b944-4ae7-8b31-3488042be7d8" name="Default" comment="added problem from arrays">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/interviewBit/dynamicProgramming/RegularExpressionMatchii.class" afterPath="$PROJECT_DIR$/out/production/interviewBit/dynamicProgramming/RegularExpressionMatchii.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hashing/Equal.java" afterPath="$PROJECT_DIR$/src/hashing/Equal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dynamicProgramming/DungeonPrincess.java" afterPath="$PROJECT_DIR$/src/dynamicProgramming/DungeonPrincess.java" />
     </list>
     <ignored path="interviewBit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,24 +34,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DungeonPrincess.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DungeonPrincess.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/DungeonPrincess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="29" column="63" lean-forward="true" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+            <state relative-caret-position="19">
+              <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegularExpressionMatchii.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/RegularExpressionMatchii.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -137,8 +128,8 @@
         <option value="$PROJECT_DIR$/src/hashing/Equal.java" />
         <option value="$PROJECT_DIR$/src/hashing/SubstringConcatenation.java" />
         <option value="$PROJECT_DIR$/src/hashing/Fraction.java" />
-        <option value="$PROJECT_DIR$/src/dynamicProgramming/DungeonPrincess.java" />
         <option value="$PROJECT_DIR$/src/dynamicProgramming/RegularExpressionMatchii.java" />
+        <option value="$PROJECT_DIR$/src/dynamicProgramming/DungeonPrincess.java" />
       </list>
     </option>
   </component>
@@ -244,7 +235,7 @@
       <recent name="backtracking" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RegularExpressionMatchii">
+  <component name="RunManager" selected="Application.DungeonPrincess">
     <configuration default="false" name="Equal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -737,8 +728,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.RegularExpressionMatchii" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DungeonPrincess" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DungeonPrincess" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RegularExpressionMatchii" />
         <item index="2" class="java.lang.String" itemvalue="Application.Fraction" />
         <item index="3" class="java.lang.String" itemvalue="Application.SubstringConcatenation" />
         <item index="4" class="java.lang.String" itemvalue="Application.Equal" />
@@ -839,7 +830,7 @@
       <workItem from="1487780399960" duration="4063000" />
       <workItem from="1487784488850" duration="200000" />
       <workItem from="1487808251817" duration="6511000" />
-      <workItem from="1487918246736" duration="19993000" />
+      <workItem from="1487918246736" duration="23517000" />
     </task>
     <task id="LOCAL-00001" summary="added problem from arrays">
       <created>1484928086897</created>
@@ -857,7 +848,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342071000" />
+    <option name="totallyTimeSpent" value="345595000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -882,7 +873,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33753943" sideWeight="0.5043924" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34053156" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34053156" sideWeight="0.4956076" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1239,7 +1230,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/dynamicProgramming/DungeonPrincess.java</url>
-          <line>20</line>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="476" />
         </line-breakpoint>
@@ -1601,21 +1592,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/DungeonPrincess.java">
+    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/RegularExpressionMatchii.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="29" column="63" lean-forward="true" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/RegularExpressionMatchii.java">
+    <entry file="file://$PROJECT_DIR$/src/dynamicProgramming/DungeonPrincess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="19">
+          <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
