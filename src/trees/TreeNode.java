@@ -13,7 +13,7 @@ public class TreeNode {
       public TreeNode right;
      public TreeNode(int x) { val = x; }
 
-    static TreeNode getTreeNode(int[] numbers){
+    public static TreeNode getTreeNode(int[] numbers){
         root = new TreeNode(numbers[0]);
 
         for (int i = 1; i < numbers.length; i++) {
