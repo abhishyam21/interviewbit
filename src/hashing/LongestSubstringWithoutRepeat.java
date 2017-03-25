@@ -1,6 +1,8 @@
 package hashing;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -14,18 +16,19 @@ public class LongestSubstringWithoutRepeat {
     }
 
     private int countOfDistinct(String a) {
-        Set<Character> counts = new HashSet<>();
-        int result = Integer.MIN_VALUE;
-        int wl =0;
+        Map<Character,Integer> map = new HashMap<>();
+        int result = 0;
+        int count = 0;
         for (int i = 0; i < a.length(); i++) {
             char entity = a.charAt(i);
-            if(counts.contains(entity)){
-                result = Math.max(result,counts.size());
-                counts.clear();
-            }
-            counts.add(entity);
+            if(map.containsKey(entity)){
+                int prev = map.get(entity);
+                count = Math.min(count+1,i-prev);
+            }else
+            count++;
+            map.put(entity,i);
+            result = Math.max(result,count);
         }
-        result = Math.max(result,counts.size());
         return result;
     }
 }

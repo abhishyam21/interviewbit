@@ -38,6 +38,11 @@ public class LongestIncreasingSubsequence {
         return max;
     }
 
+    /**
+     * This method will print list of the all the elements of
+     * the longest sub sequence
+     * @param a input array
+     */
     private void printlis(List<Integer> a){
         int max = 1;
         int n = a.size();
