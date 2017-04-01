@@ -11,7 +11,7 @@ public class LongestPalindromicSubsequence {
     private static int[][] sol;
 
     public static void main(String[] args) {
-        String a = "ABBDCACB";
+        String a = "ATACTCGGA";
         LongestPalindromicSubsequence subsequence = new LongestPalindromicSubsequence();
         int length = subsequence.longestPalindromeSequence(a);
         System.out.println("Length of the Longest Palindrome: "+length);
