@@ -8,7 +8,7 @@ import java.util.Set;
  * Created by Rachana Rao on 2/12/2017.
  */
 public class LongestCommonSubSequence {
-    private static int[][] sol;
+    static int[][] sol;
     public static void main(String[] args) {
         String a = "ABCBDAB";
         String b = "BDCABA";
@@ -55,7 +55,7 @@ public class LongestCommonSubSequence {
      * @param b second string
      * @return maximum length of the longest common sub sequence
      */
-    private static int dp1(String a, String b) {
+    static int dp1(String a, String b) {
         int m = a.length() + 1;
         int n = b.length() + 1;
         sol = new int[m][n];
@@ -112,7 +112,7 @@ public class LongestCommonSubSequence {
      * @param a input
      * @param b input
      */
-    private static Set<String> getAllLCS(String a, String b) {
+    static Set<String> getAllLCS(String a, String b) {
         int m = sol.length-1;
         int n= sol[0].length-1;
           return  util(a,b,m,n);
