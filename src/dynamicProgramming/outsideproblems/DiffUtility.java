@@ -1,9 +1,9 @@
-package dynamicProgramming;
+package dynamicProgramming.outsideproblems;
 
 import java.util.Arrays;
 
-import static dynamicProgramming.LongestCommonSubSequence.dp1;
-import static dynamicProgramming.LongestCommonSubSequence.sol;
+import static dynamicProgramming.outsideproblems.LongestCommonSubSequence.dp1;
+import static dynamicProgramming.outsideproblems.LongestCommonSubSequence.sol;
 
 /**
  * Problem Link:

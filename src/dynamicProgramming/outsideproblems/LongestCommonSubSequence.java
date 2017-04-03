@@ -1,4 +1,4 @@
-package dynamicProgramming;
+package dynamicProgramming.outsideproblems;
 
 import java.util.HashSet;
 import java.util.Set;

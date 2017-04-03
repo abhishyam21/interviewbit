@@ -1,6 +1,4 @@
-package dynamicProgramming;
-
-import java.util.Set;
+package dynamicProgramming.outsideproblems;
 
 /**
  * Problem Link:
