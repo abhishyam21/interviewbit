@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class PartitionProblem {
     private static boolean[][] cache;
     public static void main(String[] args) {
-        int arr[] = { 7, 3, 1, 5, 4, 8 };
+        int arr[] = { 1, 5, 3 };
         if(partition(arr))
             System.out.println("Yes");
         else System.out.println("No");
@@ -18,6 +18,7 @@ public class PartitionProblem {
 
     private static boolean partition(int[] arr) {
         int sum = Arrays.stream(arr).sum();
+        sum/=2;
         int n = arr.length;
         cache = new boolean[n+1][sum+1];
         for (int i = 0; i <= n; i++) {
@@ -34,6 +35,7 @@ public class PartitionProblem {
         for (boolean[] booleans : cache) {
             System.out.println(Arrays.toString(booleans));
         }
-        return cache[n][sum];
+
+        return cache[n][sum] && (Arrays.stream(arr).sum()%2 == 0);
     }
 }

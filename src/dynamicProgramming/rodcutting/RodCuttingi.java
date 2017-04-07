@@ -26,7 +26,7 @@ public class RodCuttingi {
                 cache[i] = Math.max(price[j-1]+cache[i-j], cache[i]);
             }
         }
-      //  print(cache);
+     print(cache);
         return cache[n];
     }
 

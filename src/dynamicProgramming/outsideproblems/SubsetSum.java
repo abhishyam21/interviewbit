@@ -1,4 +1,4 @@
-package dynamicProgramming;
+package dynamicProgramming.outsideproblems;
 
 /**
  * problem link: http://www.techiedelight.com/subset-sum-problem/
@@ -7,7 +7,7 @@ package dynamicProgramming;
 public class SubsetSum {
     public static void main(String[] args) {
         int[] a = {7,3,2,5,8};
-        int sum = 14;
+        int sum = 11;
         System.out.println(subsetSumUtil(a,sum,0));
     }
 
@@ -17,7 +17,13 @@ public class SubsetSum {
         //return false if sum is less than zero or pos is less than 0
         if(pos <0 || sum<0 ) return false;
             sum-=a[pos];
-          subsetSumUtil(a,sum,pos+1);
-        return false;
+        return   subsetSumUtil(a,sum-a[pos],pos+1) ||
+                subsetSumUtil(a,sum,pos+1);
     }
 }
+/*
+        if(pos <0 || sum<0 ) return false;
+            sum-=a[pos];
+          subsetSumUtil(a,sum,pos+1);
+        return false;
+ */
