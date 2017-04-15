@@ -1,7 +1,7 @@
 package binarySearch;
 public class ImplementPowerFunction {
     public static void main(String[] args) {
-        int x = 2, n = 0, d = 5;
+        int x = 2, n = 8, d = 1234567;
         System.out.println("Expected "+Math.pow(x,n));
         ImplementPowerFunction implementPowerFunction = new ImplementPowerFunction();
         System.out.println(implementPowerFunction.pow(x,n,d));
