@@ -70,13 +70,7 @@ public class SortList {
                 temp = temp.next;
             }
         }
-        if ( j != null){
-            temp.next = j;
-        }
-
-        if ( i != null){
-            temp.next = i;
-        }
+        temp.next = (j!= null) ? j : i;
         return fakeNode.next;
     }
 }
