@@ -1,22 +1,66 @@
 package hashing;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
+import java.util.*;
 
 /**
  * Created by abhishyam.c on 2/22/2017.
  */
 public class Equal {
     public static void main(String[] args) {
-       // Integer[] temp = {3, 4, 7, 1, 2, 9, 8};
-        Integer[] temp = {0, 0, 1, 0, 2, 1};
+        Integer[] temp = {3, 4, 7, 1, 2, 9, 8};
+        //Integer[] temp = {0, 0, 1, 0, 2, 1};
         ArrayList<Integer> a = new ArrayList<>(Arrays.asList(temp));
         Equal equal = new Equal();
         ArrayList<Integer> result = equal.navyApproach(a);
         System.out.println(result.toString());
         ArrayList<Integer> result1 = equal.equal(a);
         System.out.println(result1.toString());
+        ArrayList<Integer> integers = equal.finalMethod(a);
+        System.out.println(integers.toString());
+    }
+
+    private ArrayList<Integer> finalMethod(ArrayList<Integer> a) {
+        Map<Integer, List<Node>> map = new HashMap<>();
+        for (int i = 0; i < a.size(); i++) {
+            for (int j = i + 1; j < a.size(); j++) {
+                int sum = a.get(i) + a.get(j);
+                List<Node> node = map.get(sum);
+                if (node == null) {
+                    node = new LinkedList<>();
+                }
+                node.add(new Node(sum, i, j));
+                map.put(sum, node);
+            }
+        }
+        ArrayList<Integer> result = new ArrayList<>();
+        result.add(Integer.MAX_VALUE);
+        result.add(Integer.MAX_VALUE);
+        result.add(Integer.MAX_VALUE);
+        result.add(Integer.MAX_VALUE);
+        for (int i = 0; i < a.size(); i++) {
+            for (int j = i + 1; j < a.size(); j++) {
+                int sum = a.get(i) + a.get(j);
+                Node current = new Node(sum, i, j);
+                List<Node> nodes = map.get(sum);
+                for (Node node : nodes) {
+                    if (overlaps(current, node)) continue;
+                    result.set(0, current.i);
+                    result.set(1, current.j);
+                    result.set(2, node.i);
+                    result.set(3, node.j);
+                    return result;
+                }
+            }
+        }
+        return result;
+    }
+
+    public boolean overlaps(Node n1, Node n2) {
+
+        if (n1.i == n2.i || n1.i == n2.j || n1.j == n2.i || n1.j == n2.j)
+            return true;
+
+        return false;
     }
 
     private ArrayList<Integer> equal(ArrayList<Integer> a) {
@@ -85,5 +129,20 @@ public class Equal {
         }
         result.addAll(Arrays.asList(positions));
         return result;
+    }
+
+    private static class Node {
+        int data, i, j;
+
+        public Node(int data, int i, int j) {
+            this.data = data;
+            this.i = i;
+            this.j = j;
+        }
+
+        @Override
+        public String toString() {
+            return this.data + "-->" + i + "," + j;
+        }
     }
 }
