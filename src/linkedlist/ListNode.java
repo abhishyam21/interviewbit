@@ -6,7 +6,11 @@ package linkedlist;
 public class ListNode {
     public int val;
     public ListNode next;
-    ListNode(int x) { val = x; next = null; }
+
+    public ListNode(int x) {
+        val = x;
+        next = null;
+    }
 
     public static void  printNode(ListNode a){
         ListNode temp = a;
@@ -15,6 +19,17 @@ public class ListNode {
             temp = temp.next;
         }
         System.out.println();
+    }
+
+    public static ListNode getListFromArray(int[] array) {
+        ListNode a = new ListNode(array[0]);
+        ListNode temp = a;
+        for (int i = 1; i < array.length; i++) {
+            ListNode newNode = new ListNode(array[i]);
+            temp.next = newNode;
+            temp = newNode;
+        }
+        return a;
     }
 
     //Get the length of the list
@@ -30,17 +45,6 @@ public class ListNode {
         }
         return count;
     }
-
-        public static ListNode getListFromArray(int[] array){
-            ListNode a = new ListNode(array[0]);
-            ListNode temp = a;
-            for (int i = 1; i < array.length; i++) {
-                ListNode newNode = new ListNode(array[i]);
-                temp.next = newNode;
-                temp = newNode;
-            }
-            return a;
-        }
 
     @Override
     public String toString() {
