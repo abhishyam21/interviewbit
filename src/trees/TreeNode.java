@@ -57,5 +57,12 @@ public class TreeNode {
         System.out.println("");
     }
 
+    public static void printIOrder(TreeNode node) {
+        if (node != null) {
+            printIOrder(node.left);
+            System.out.print(node.val + "  ");
+            printIOrder(node.right);
+        }
+    }
 
 }
